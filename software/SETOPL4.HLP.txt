@@ -1,0 +1,84 @@
+SETOPL4
+-------
+
+Format:      SETOPL4 [/R] [/?] [/On] [/Fn] [/Wn] [/A] [/P] [/S] [/C]
+
+Purpose:     To change de current OPL4 mode and/or the current volume.
+
+Use:         /R will reset some of the registers from the OPL4. This may be
+             nessecery when the registers of the OPL4 contain wrong values.
+             The MIX control of the OPL4 is not reseted by this option.
+             It is not clear yet wich registers are reseted by this option.
+
+             If /? is given then the program will show the build in help and
+             will return to DOS. This means that options that are given
+             after /? will be ignored.
+
+             /On will change or display the current OPL mode.
+             The 'n' stands for the following options:
+
+             /O2   this will put the OPL4 in the OPL2 mode
+             /O3   this will put the OPL4 in the OPL3 mode
+             /O4   this will put the OPL4 in the OPL4 mode
+             /O?   this will display the current OPL mode
+
+             The OPL4 has no OPL1 mode because the OPL2 mode is 100%
+             compatible with the OPL1 mode.
+             The OPL2 mode can be used when you want to use your OPL4 instead
+             of the MSX-AUDIO (only the FM part).
+
+             /Fn is used to change the volume of the FM part of the OPL4
+             /Wn is used to change the volume of the PCM part of the OPL4
+
+             For 'n' you can use a volume from 0 until 7.
+             0 is no sound at all.
+             7 is the loudest.
+
+             The options /Fn and /Wn change the volume in the MIX unit
+             of the OPL4. It is a master volume. Most of the now existing
+             OPL4 programs don't use the master volume. This means that
+             the volume wich is set by SETOPL4 wil not be changed by most
+             of the programs. So far as I know only the N.O.P. modplayer
+             changes the master-volume.
+
+	     /A activates the MSX-AUDIO (POKE -54,35). This can be used for
+	     japanese games or programs that suport MSX-AUDIO. It is necessary
+	     to put a jumper on the MOONSOUND card or change the ports in the
+	     program it self to use the OPL4 for replaying the MSX-AUDIO data. 
+			    
+	     Warning!!! DOS2.XX will not be able to use the Memory Mapper
+	     when /A is applied. Use this option only when necessary!! 
+
+	     /Pnnn play sample. The opl4 will play a sample if you put a value
+	     behind /P.The value must be decimal.
+	     This must be a value between 0-511. You will here 'ROM' sample's
+	     from 0-383 and 'SRAM' sample's form 384 to 511.
+	     
+	     The opl4 must not be in the opl2 mode, because if it is you
+	     won't here a thing.
+	     
+	     /S Stop's all sample's from channel 1 untill channel 24. 
+	     
+	     /C Create MTN (Moonblaster tone) file. An MTN file will be
+		created if this option is given. The tone is selected
+		by the sample play option. for example:
+		
+		A:\>SETOPL4 /p385/c
+		
+		This will cause that sram tone number 2 will be saved to disk.
+		You will here the sample and then you give it a appp... file 
+		and tone name.
+		
+		Rom samples can't be saved into the MTN format because the MTN
+		format doesn't support the 12 bit samples.
+	      
+	     If an incorrect option or value is given then the program will 
+	     be aborted.
+
+Examples:
+
+             A:\>SETOPL4 /F4 /W7 /O4
+
+             This will change de FM volume to 4, the PCM volume to 7 and the
+             OPL mode to the OPL4 mode.
+

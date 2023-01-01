@@ -24,7 +24,7 @@ The following image presents the Wozblaster reloaded (yeah, I know there is a ju
 
 # Resources
 
-This GitHub repository stores everything collected about and required to build the original Wozblaster or the reloaded version. You can check the article I wrote with detailes instructions as well as the updated BOM with purchase links at https://theretrohacker.com/2022/12/31/blasting-sound-for-your-msx-the-wozblaster-reloaded/
+This GitHub repository stores everything collected and resources required to build the original Wozblaster or the reloaded version. You can check the article I wrote with detailed instructions as well as the updated BOM with purchase links at https://theretrohacker.com/2022/12/31/blasting-sound-for-your-msx-the-wozblaster-reloaded/
 
 ## License 
 

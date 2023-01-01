@@ -1,0 +1,7 @@
+Wozblaster V1.0 Rev.1
+
+Se corrigió:
+
+- Texto erróneo +5V / +12v que estaban invertidos.
+- Se corrió 1mm hacia borde perforación masa jack audio.
+- Texto c2/3/12 por c2/3/11.

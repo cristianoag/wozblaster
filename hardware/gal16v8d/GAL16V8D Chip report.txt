@@ -1,0 +1,175 @@
+
+                                                                      Page 1
+ispLEVER Classic 1.5.00.05.39.l1  -  Device Utilization Chart         Wed May 23 09:37:26 2012
+
+wozblaster.bls 
+
+
+
+--------------------------------------------------------------------------------
+
+Module                   : 'wozblaster'
+
+--------------------------------------------------------------------------------
+
+Input files:
+
+    ABEL PLA file        : pruebagal16v8d.tt3
+    Device library       : P16V8AS.dev
+
+Output files:
+
+    Report file          : pruebagal16v8d.rpt
+    Programmer load file : pruebagal16v8d.jed
+
+--------------------------------------------------------------------------------
+
+
+                                                                      Page 2
+ispLEVER Classic 1.5.00.05.39.l1  -  Device Utilization Chart         Wed May 23 09:37:26 2012
+
+wozblaster.bls 
+
+P16V8AS Programmed Logic:
+--------------------------------------------------------------------------------
+
+
+
+BUSDIR     = !(  !RD & !CS.PIN );
+
+CS     = !(  A6 & A2 & !IORQ & !A5 & !A4 & !A3 & A7 
+          #   A6 & A2 & !IORQ & A5 & A4 & A3 & OA2.PIN );
+
+OA2     = !(  A7 );
+
+OA1     = !(  !A7 & A1 
+           #   A7 & !A1 );
+
+
+
+                                                                      Page 3
+ispLEVER Classic 1.5.00.05.39.l1  -  Device Utilization Chart         Wed May 23 09:37:26 2012
+
+wozblaster.bls 
+
+P16V8AS Chip Diagram:
+--------------------------------------------------------------------------------
+
+
+
+
+                                   P16V8AS
+
+                         +---------\       /---------+
+                         |          \     /          |
+                         |           -----           |
+                      A6 |  1                    20  | Vcc                     
+                         |                           |
+                      A2 |  2                    19  | !OA2                    
+                         |                           |
+                      RD |  3                    18  | !CS                     
+                         |                           |
+                    IORQ |  4                    17  |                         
+                         |                           |
+                      A5 |  5                    16  | !OA1                    
+                         |                           |
+                      A4 |  6                    15  | !BUSDIR                 
+                         |                           |
+                      A3 |  7                    14  |                         
+                         |                           |
+                      A7 |  8                    13  |                         
+                         |                           |
+                      A1 |  9                    12  |                         
+                         |                           |
+                     GND | 10                    11  |                         
+                         |                           |
+                         |                           |
+                         `---------------------------'
+
+                        SIGNATURE: N/A
+
+
+                                                                      Page 4
+ispLEVER Classic 1.5.00.05.39.l1  -  Device Utilization Chart         Wed May 23 09:37:26 2012
+
+wozblaster.bls 
+
+P16V8AS Resource Allocations:
+--------------------------------------------------------------------------------
+
+
+
+        Device        | Resource  |   Design    |
+       Resources      | Available | Requirement | Unused
+======================|===========|=============|==============
+                      |           |             |
+Input Pins:           |           |             |
+                      |           |             |
+          Input:      |     10    |      9      |    1 ( 10 %)
+                      |           |             |
+Output Pins:          |           |             |
+                      |           |             |
+          In/Out:     |      6    |      2      |    4 ( 66 %)
+          Output:     |      2    |      2      |    0 (  0 %)
+                      |           |             |
+Buried Nodes:         |           |             |
+                      |           |             |
+          Input Reg:  |      -    |      -      |    -
+            Pin Reg:  |      -    |      -      |    -
+          Buried Reg: |      -    |      -      |    -
+
+
+                                                                      Page 5
+ispLEVER Classic 1.5.00.05.39.l1  -  Device Utilization Chart         Wed May 23 09:37:26 2012
+
+wozblaster.bls 
+
+P16V8AS Product Terms Distribution:
+--------------------------------------------------------------------------------
+
+
+
+            Signal                       |    Pin   | Terms | Terms | Terms
+             Name                        | Assigned | Used  |  Max  | Unused
+=========================================|==========|=======|=======|=======
+BUSDIR                                   |   15     |   1   |   8   |   7
+CS                                       |   18     |   2   |   8   |   6
+OA2                                      |   19     |   1   |   8   |   7
+OA1                                      |   16     |   2   |   8   |   6
+
+
+     ==== List of Inputs/Feedbacks ====
+
+Signal Name                              | Pin      | Pin Type
+=========================================|==========|=========
+A6                                       |    1     | INPUT
+A2                                       |    2     | INPUT
+RD                                       |    3     | INPUT
+CS.PIN                                   |   18     | COMB FB
+IORQ                                     |    4     | INPUT
+A5                                       |    5     | INPUT
+A4                                       |    6     | INPUT
+A3                                       |    7     | INPUT
+A7                                       |    8     | INPUT
+OA2.PIN                                  |   19     | COMB FB
+A1                                       |    9     | INPUT
+
+
+                                                                      Page 6
+ispLEVER Classic 1.5.00.05.39.l1  -  Device Utilization Chart         Wed May 23 09:37:26 2012
+
+wozblaster.bls 
+
+P16V8AS Unused Resources:
+--------------------------------------------------------------------------------
+
+
+
+ Pin   |  Pin   |   Product   | Flip-flop
+Number |  Type  |   Terms     |   Type
+=======|========|=============|==========
+   11  |  INPUT |      -      |    -   
+   12  |  BIDIR | NORMAL  8   |    -   
+   13  |  BIDIR | NORMAL  8   |    -   
+   14  |  BIDIR | NORMAL  8   |    -   
+   17  |  BIDIR | NORMAL  8   |    -   

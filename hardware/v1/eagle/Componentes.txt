@@ -1,0 +1,27 @@
+List of components:
+
+1 x PCB
+1 x YMF278B-F or YMF268-F
+1 x YAC513-M (SOP16)
+2 x LF347 (SOP14)
+1 x GAL16V8D (DIP20)
+1 x 27C160 EPROM (DIP42)
+2 x KM684000ALG (512kB) (SOP32)
+1 x Cristal 33.8688 (HC49-S)
+7 x 100nF cerámic / multilayer  2.5 mm or less
+4 x 2200pF cerámic 2.5 mm or less
+2 x 12pF cerámic  2.5 mm or less
+1 x 10pF cerámic  2.5 mm or less
+2 x 0.015uF cerámic  2.5 mm or less
+2 x 0.033uF cerámic  2.5 mm or less
+1 x 3.3K 1/4
+8 x 1K 1/4
+2 x 100K 1/4
+2 x 360ohm 1/4
+1 x 4.7uF 16v 
+1 x 10uF 16v  
+2 x 22uF 16v  
+1 x Jack Audio Estereo para chasis 1/4
+C22,470uFx16v tantalum not necessary.
+
+Avoid use of used 27c160, try to use only new ones due to programming failure.

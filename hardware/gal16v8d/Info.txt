@@ -1,3 +1,0 @@
-Software WozBlaster - Direccionamiento MSX-OPL.circ: Logisim.
-
-Software programación GAL: Lattice ispLEVER Classic 1.5

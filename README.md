@@ -18,10 +18,9 @@ Image below shows the original Wozblaster:
 
 The reloaded version was then created with the appropriate holes for the Konami as well as the Patola cartridge cases. We also enlarged the holes for the audio jack allowing a most common audio jack connectors to fit. The following versions are available at this moment (please note that some are working in progress):
 
-* Wozblaster Reloaded v1.1 - Based on the original circuit, combination of THT and SMD components. Reduced board which fits on both Konami and Patola cases. (released)
-* Wozblaster Reloaded v1.2 - Replaced the 27C160 old EPROM by AM29F016B flash. All passive components are 0603 SMD. Sound is injected back to SOUNDIN in mono. Reduced board which fits on both Konami and Patola cases. (in development)
-* Wozblaster Reloaded v2.0 - Replaced the 27C160 old EPROM by AM29F016B flash. All passive components are 0603 SMD. YAC513 DAC replaced by NEC UPD6376. Sound is injected back to SOUNDIN in mono. LF347 OP Amps replaced by 4558s. Improved audio circuit. Reduced board which fits on both Konami and Patola cases. (in development)
-
+* [Wozblaster Reloaded v1.1](/hardware/reloaded_v1.1) - Based on the original circuit, combination of THT and SMD components. Reduced board which fits on both Konami and Patola cases. (released)
+* [Wozblaster Reloaded v1.2](/hardware/reloaded_v1.2) - Replaced the 27C160 old EPROM by AM29F016B flash. All passive components are 0603 SMD. Sound is injected back to SOUNDIN in mono. Reduced board which fits on both Konami and Patola cases. (in development)
+* [Wozblaster Reloaded v2.0](/hardware/reloaded_v2) - Replaced the 27C160 old EPROM by AM29F016B flash. All passive components are 0603 SMD. YAC513 DAC replaced by NEC UPD6376. Sound is injected back to SOUNDIN in mono. LF347 OP Amps replaced by 4558s. Improved audio circuit. Reduced board which fits on both Konami and Patola cases. (in development)
 
 # Resources
 

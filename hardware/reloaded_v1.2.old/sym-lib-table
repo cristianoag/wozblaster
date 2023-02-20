@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "CRISAG")(type "KiCad")(uri "${KIPRJMOD}/libraries/CRISAG.kicad_sym")(options "")(descr ""))
+  (lib (name "MSX OPL4 Wozblaster")(type "KiCad")(uri "${KIPRJMOD}/libraries/MSX OPL4 Wozblaster.kicad_sym")(options "")(descr ""))
+)

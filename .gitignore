@@ -12,6 +12,7 @@ _autosave-*
 *-rescue.lib
 *-save.pro
 *-save.kicad_pcb
+*-backups
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -24,6 +25,3 @@ _autosave-*
 *.xml
 #*.csv
 
-#Back-up folders
-hardware/reloaded_soundin/MSX OPL4 Wozblaster-backups/*
-hardware/reloaded/MSX OPL4 Wozblaster-backups/*

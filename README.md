@@ -2,7 +2,7 @@
 
 The WozBlaster OPL4 cartridge is a sound expansion device for the MSX computer platform that provides additional audio capabilities, including support for FM synthesis and wavetable synthesis. It uses the OPL4 (FM Operator Type-L4) sound chip developed by Yamaha that was used in a variety of electronic musical instruments and computer sound cards. 
 
-![cartridge](images/20230101_212224724_iOS%20(Medium).jpg)
+![The Wozblaster Reloaded Cartridge](images/20230216_121408225_iOS (Medium).jpg)
 
 The cartridge is an external device, clone of another sound cartridge for the MSX called Moonsound and allows access to the capabilities of the OPL4 sound chip from MSX games and general OPL4 compatible music software. It was originally designed by Gustavo Iriarte.
 
@@ -14,13 +14,14 @@ The original Wozblaster PCB can't be fitted into a traditional MSX cartridge cas
 
 Image below shows the original Wozblaster:
 
-![Original](images/20230101_212444857_iOS%20(Medium).jpg)
+![The Original Wozblaster Board](images/20230101_212444857_iOS%20(Medium).jpg)
 
-The reloaded version was then created with the appropriate holes for the Konami as well as the Patola cartridge cases. We also enlarged the holes for the audio jack allowing a most common audio jack connectors to fit.
+The reloaded version was then created with the appropriate holes for the Konami as well as the Patola cartridge cases. We also enlarged the holes for the audio jack allowing a most common audio jack connectors to fit. The following versions are available at this moment (please note that some are working in progress):
 
-The following image presents the Wozblaster reloaded (yeah, I know there is a jumper there... small mistake that was already fixed on the uploaded gerbers):
+* Wozblaster Reloaded v1.1 - Based on the original circuit, combination of THT and SMD components. Reduced board which fits on both Konami and Patola cases. (released)
+* Wozblaster Reloaded v1.2 - Replaced the 27C160 old EPROM by AM29F016B flash. All passive components are 0603 SMD. Sound is injected back to SOUNDIN in mono. Reduced board which fits on both Konami and Patola cases. (in development)
+* Wozblaster Reloaded v2.0 - Replaced the 27C160 old EPROM by AM29F016B flash. All passive components are 0603 SMD. YAC513 DAC replaced by NEC UPD6376. Sound is injected back to SOUNDIN in mono. LF347 OP Amps replaced by 4558s. Improved audio circuit. Reduced board which fits on both Konami and Patola cases. (in development)
 
-![Reloaded](images/20221231_202714752_iOS%20(Medium).jpg)
 
 # Resources
 

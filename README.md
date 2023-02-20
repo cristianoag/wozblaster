@@ -2,7 +2,7 @@
 
 The WozBlaster OPL4 cartridge is a sound expansion device for the MSX computer platform that provides additional audio capabilities, including support for FM synthesis and wavetable synthesis. It uses the OPL4 (FM Operator Type-L4) sound chip developed by Yamaha that was used in a variety of electronic musical instruments and computer sound cards. 
 
-![The Wozblaster Reloaded Cartridge](images/20230216_121408225_iOS (Medium).jpg)
+![The Wozblaster Reloaded Cartridge](images/20230216_121408225_iOS%20(Medium).jpg)
 
 The cartridge is an external device, clone of another sound cartridge for the MSX called Moonsound and allows access to the capabilities of the OPL4 sound chip from MSX games and general OPL4 compatible music software. It was originally designed by Gustavo Iriarte.
 

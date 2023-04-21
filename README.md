@@ -1,6 +1,10 @@
 # The Wozblaster (Reloaded)
 
-The WozBlaster OPL4 cartridge is a sound expansion device designed for the MSX computer platform. This cartridge provides users with a range of additional audio capabilities, including support for both FM synthesis and wavetable synthesis. At its core is the OPL4 (FM Operator Type-L4) sound chip, which was developed by Yamaha and used in a variety of electronic musical instruments and computer sound cards. With the WozBlaster OPL4 cartridge, MSX computer users can enjoy high-quality sound and create complex musical arrangements with ease.
+The WozBlaster OPL4 cartridge is a sound expansion device designed for the MSX computer platform. This cartridge enables a range of additional audio capabilities for the MSX, including support for both FM synthesis and wavetable synthesis. 
+
+At its core is the OPL4 (FM Operator Type-L4) sound chip, which was developed by Yamaha and used in a variety of electronic musical instruments and computer sound cards. 
+
+With the WozBlaster OPL4 cartridge, MSX computer users can enjoy high-quality sound and create complex musical arrangements with ease.
 
 ![The Wozblaster Reloaded Cartridge](images/20230216_121408225_iOS%20(Medium).jpg)
 
@@ -16,16 +20,17 @@ Image below shows the original Wozblaster:
 
 ![The Original Wozblaster Board](images/20230101_212444857_iOS%20(Medium).jpg)
 
-A reloaded version of the WozBlaster cartridge has been created with appropriately-sized holes to fit both Konami and Patola cartridge cases. Additionally, the audio jack holes have been enlarged to accommodate most common audio jack connectors. It's worth noting that some versions of the cartridge are still a work in progress.
+A few reloaded versions of the WozBlaster cartridge have been created with appropriately-sized holes to fit both Konami and Patola cartridge cases. Additionally, the audio jack holes have been enlarged to accommodate most common audio jack connectors. Some versions of the cartridge are still a work in progress.
 
 Currently, the following versions of the WozBlaster cartridge are available (please note that this list is subject to change as new versions become available):
 
-* [Wozblaster Reloaded v1.1](/hardware/reloaded_v1.1) - Based on the original circuit, this version features a combination of through-hole and surface-mount components. The board is smaller and can fit in both Konami and Patola cases. (Released)
+* [Wozblaster Reloaded v1.1](/hardware/reloaded_v1.1) - Based on the original circuit, this version features a combination of through-hole and surface-mount components. The board is smaller and can fit in both Konami and Patola cases. (Released and working)
 
 ![The Wozblaster Reloaded PCB](images/20230217_181151865_iOS%20(Medium).jpg)
 
 * [Wozblaster Reloaded v1.2](/hardware/reloaded_v1.2) - This version replaces the old 27C160 EPROM with an AM29F016B flash, and all passive components are 0603 SMD. The sound is injected back to SOUNDIN in mono. The board is smaller and can fit in both Konami and Patola cases. (In development)
-* [Wozblaster Reloaded v2.0](/hardware/reloaded_v2) - This version features an AM29F016B flash in place of the 27C160 EPROM, all passive components are 0603 SMD, and the YAC513 DAC is replaced by a NEC UPD6376. The sound is injected back to SOUNDIN in mono, and the LF347 OP Amps are replaced with 4558s. The audio circuit has been improved, and the board is smaller and can fit in both Konami and Patola cases. (In development)
+* [Wozblaster Reloaded v2.0](/hardware/reloaded_v2) - This version features an AM29F016B flash in place of the 27C160 EPROM, all passive components are 0603 SMD, and the YAC513 DAC is replaced by a NEC UPD6376. The sound is injected back to SOUNDIN in mono, and the LF347 OP Amps are replaced with 4558s. The audio circuit has been improved, and the board is smaller and can fit in both Konami and Patola cases. (Abandoned - Not Tested)
+* [Wozblaster Reloaded v3.1](/hardware/reloaded_v3.1/) - This version implements additional features to the original Wozblaster in a package that fits both Patola and Konami cases. It is based on the UDA1334 DAC, and uses a Adafruit module to perform the digital to analog conversion. It also implements bluetooth through the use of the KDX_BT module and injects amplified sound into the SOUNDIN MSX pin. (In development)
 
 # Resources
 

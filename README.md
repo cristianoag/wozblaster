@@ -36,6 +36,8 @@ Currently, the following versions of the WozBlaster cartridge are available (ple
 
 This GitHub repository contains all of the resources needed to build both the original WozBlaster cartridge and the reloaded versions. For detailed instructions, you can refer to the article I wrote, which includes an updated bill of materials (BOM) with links to purchase the required components. You can find the article at https://theretrohacker.com/2022/12/31/blasting-sound-for-your-msx-the-wozblaster-reloaded/.
 
+The latest update on the v3.1 development has been posted on a short YouTube video in english [here](https://youtu.be/J95RrFSF2NM). 
+
 ## License 
 
 This work is licensed under the CERN OHL-S v2. You may redistribute and modify this project and its documentation under the terms of the CERN-OHL-S v2.

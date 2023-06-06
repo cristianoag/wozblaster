@@ -24,21 +24,22 @@ A few reloaded versions of the WozBlaster cartridge have been created with appro
 
 Currently, the following versions of the WozBlaster cartridge are available (please note that this list is subject to change as new versions become available):
 
-* [Wozblaster Reloaded v1.1](/hardware/reloaded_v1.1) - Based on the original circuit, this version features a combination of through-hole and surface-mount components. The board is smaller and can fit in both Konami and Patola cases. (Released and working)
+* [Wozblaster Reloaded v1.1](/hardware/reloaded_v1.1) - Based on the original circuit, this version features a combination of through-hole and surface-mount components. The board is smaller and can fit in both Konami and Patola cases. (tested and working)
 
 ![The Wozblaster Reloaded PCB](images/20230217_181151865_iOS%20(Medium).jpg)
 
-* [Wozblaster Reloaded v1.3](/hardware/reloaded_v1.3) - This version replaces the old 27C160 EPROM with an AM29F016B flash memory, and all passive components are 0603 SMD. The sound is injected back to SOUNDIN in mono. The board is smaller and can fit in both Konami and Patola cases. (Abandoned)
-
-* [Wozblaster Reloaded v3.1](/hardware/reloaded_v3.1/) - This version implements additional features to the original Wozblaster in a package that fits both Patola and Konami cases. It is based on the UDA1334 DAC, and uses the [Adafruit A1334 DAC Module](https://github.com/adafruit/Adafruit-UDA1334A-I2S-Stereo-DAC-PCB) to perform the digital to analog conversion. It also implements bluetooth through the use of the [KCX_BT_EMITTER module](https://s.click.aliexpress.com/e/_DDTCRnJ) and injects amplified sound into the SOUNDIN MSX pin. It features 1MB of RAM and 2MB of ROM with MIDI compatible samples. (In development)
+* [Wozblaster Reloaded v1.3](/hardware/reloaded_v1.3) - This version replaces the old 27C160 EPROM with an AM29F016B flash memory, and all passive components are 0603 SMD. The sound is injected back to SOUNDIN in mono. The board is smaller and can fit in both Konami and Patola cases. (abandoned)
   
-* [Wozblaster Reloaded v3.2](/hardware/reloaded_v3.2/) - Version based on the UDA1334 DAC, and also using the [Adafruit A1334 DAC Module](https://github.com/adafruit/Adafruit-UDA1334A-I2S-Stereo-DAC-PCB) to perform the digital to analog conversion. It is injecting audio back into the SOUNDIN MSX pin but is not offering bluetooth due to issues with the module being used in the previous version. It features 1MB of RAM and 2MB of ROM with MIDI compatible samples. (In development)
+* [Wozblaster Reloaded v3.3](/hardware/reloaded_v3.3/) - Version based on the UDA1334 DAC, and using the [Adafruit A1334 DAC Module](https://github.com/adafruit/Adafruit-UDA1334A-I2S-Stereo-DAC-PCB) to perform the digital to analog conversion. It is injecting audio back into the SOUNDIN MSX pin but is not offering bluetooth due to issues with the module being used during development. It features 1MB of RAM and 2MB of ROM with MIDI compatible samples. (tested and working)
+
+![The Wozblaster Reloaded 3.2 PCB Side 1](images/20230606_151827648_iOS.jpg)
+![The Wozblaster Reloaded 3.2 PCB Side 2](images/20230606_151837668_iOS.jpg)
 
 # Resources
 
 This GitHub repository contains all of the resources needed to build both the original WozBlaster cartridge and the reloaded versions. For detailed instructions, you can refer to the article I wrote, which includes an updated bill of materials (BOM) with links to purchase the required components. You can find the article at https://theretrohacker.com/2022/12/31/blasting-sound-for-your-msx-the-wozblaster-reloaded/.
 
-The latest update on the v3.1 development has been posted on a short YouTube video in english [here](https://youtu.be/J95RrFSF2NM). 
+The update on the v3.1 development has been posted on a short YouTube video in english [here](https://youtu.be/J95RrFSF2NM). 
 
 The update on v3.2 is available on a quick video [here](https://www.youtube.com/shorts/V5VmL33uvzE).
 

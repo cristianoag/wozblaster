@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "MSX OPL4 Wozblaster")(type "KiCad")(uri "${KIPRJMOD}/MSX OPL4 Wozblaster.pretty")(options "")(descr ""))
+)

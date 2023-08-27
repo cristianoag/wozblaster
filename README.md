@@ -35,6 +35,10 @@ Currently, the following versions of the WozBlaster cartridge are available (ple
 ![The Wozblaster Reloaded 3.2 PCB Side 1](images/20230606_151827648_iOS.jpg)
 ![The Wozblaster Reloaded 3.2 PCB Side 2](images/20230606_151837668_iOS.jpg)
 
+* [Wozblaster Reloaded v4.0](/hardware/reloaded_v4.0/) - Evolution of v3.3 featuring a 2MB CY62167ELL RAM integrated. 
+
+![The Wozblaster Reloaded 4.0 PCB](images/2023-08-27_09-25.jpg)
+
 # Resources
 
 This GitHub repository contains all of the resources needed to build both the original WozBlaster cartridge and the reloaded versions. For detailed instructions, you can refer to the article I wrote, which includes an updated bill of materials (BOM) with links to purchase the required components. You can find the article at https://theretrohacker.com/2022/12/31/blasting-sound-for-your-msx-the-wozblaster-reloaded/.

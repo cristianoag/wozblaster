@@ -16,7 +16,7 @@ Moonsound clones generally come equipped with 1 MB of sample-RAM and a 2 MB Yama
 
 It's worth noting that the original Wozblaster PCB cannot be fitted into a traditional MSX cartridge case. Additionally, as detailed in the building instructions, the audio jack holes on the original board are quite small, which made it difficult to find a connector that would fit.
 
-Image below shows the original Wozblaster:
+Image below shows the original Wozblaster cartridge PCB:
 
 ![The Original Wozblaster Board](images/20230101_212444857_iOS%20(Medium).jpg)
 
@@ -30,12 +30,12 @@ Currently, the following versions of the WozBlaster cartridge are available (ple
 
 * [Wozblaster Reloaded v1.3](/hardware/reloaded_v1.3) - This version replaces the old 27C160 EPROM with an AM29F016B flash memory, and all passive components are 0603 SMD. The sound is injected back to SOUNDIN in mono. The board is smaller and can fit in both Konami and Patola cases. (abandoned)
   
-* [Wozblaster Reloaded v3.3](/hardware/reloaded_v3.3/) - Version based on the UDA1334 DAC, and using the [Adafruit A1334 DAC Module](https://github.com/adafruit/Adafruit-UDA1334A-I2S-Stereo-DAC-PCB) to perform the digital to analog conversion. It is injecting audio back into the SOUNDIN MSX pin but is not offering bluetooth due to issues with the module being used during development. It features 1MB of RAM and 2MB of ROM with MIDI compatible samples. (tested and working)
+* [Wozblaster Reloaded v3.3](/hardware/reloaded_v3.3/) - Version based on the UDA1334 DAC, and using the [Adafruit A1334 DAC Module](https://github.com/adafruit/Adafruit-UDA1334A-I2S-Stereo-DAC-PCB) to perform the digital to analog conversion. It is injecting audio back into the SOUNDIN MSX pin. It features 1MB of RAM and 2MB of ROM with MIDI compatible samples. (tested and working)
 
 ![The Wozblaster Reloaded 3.2 PCB Side 1](images/20230606_151827648_iOS.jpg)
 ![The Wozblaster Reloaded 3.2 PCB Side 2](images/20230606_151837668_iOS.jpg)
 
-* [Wozblaster Reloaded v4.0](/hardware/reloaded_v4.0/) - Evolution of v3.3 featuring a 2MB CY62167ELL RAM integrated. 
+* [Wozblaster Reloaded v4.0](/hardware/reloaded_v4.0/) - Evolution of v3.3 featuring a 2MB CY62167ELL RAM integrated. It also mixes the computer SOUNDIN. (tested and working)
 
 ![The Wozblaster Reloaded 4.0 PCB](images/2023-08-27_09-25.jpg)
 

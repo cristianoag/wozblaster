@@ -1790,7 +1790,6 @@
     )
   )
 
-
   (junction (at 294.64 177.8) (diameter 0) (color 0 0 0 0)
     (uuid 12303077-f5b1-46fc-8859-5d4c85f83459)
   )
@@ -3927,7 +3926,7 @@
   (symbol (lib_id "CRISAG:YMF278B-F") (at 314.96 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 42d4f074-b6f5-4ab9-8060-6faf7f8e62ab)
-    (property "Reference" "IC5" (at 302.26 90.932 0)
+    (property "Reference" "U1" (at 302.26 90.932 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "YMF278B-F" (at 308.356 209.55 0)
@@ -4022,7 +4021,7 @@
     (instances
       (project "MSX OPL4 Wozblaster"
         (path "/319085e4-dbf0-404d-8e32-9614d4e1a0c6"
-          (reference "IC5") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -4057,13 +4056,13 @@
   (symbol (lib_id "CRISAG:UDA1334_MOD") (at 257.81 248.92 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5116e50a-ea17-4a28-9184-da66884b064a)
-    (property "Reference" "U2" (at 251.46 232.41 90)
+    (property "Reference" "U5" (at 251.46 232.41 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "UDA1334MOD" (at 251.46 234.95 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "CRISAG:UDA1334MOD" (at 257.81 248.92 0)
+    (property "Footprint" "MSX OPL4 Wozblaster:UDA1334MOD" (at 257.81 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 257.81 248.92 0)
@@ -4087,7 +4086,7 @@
     (instances
       (project "MSX OPL4 Wozblaster"
         (path "/319085e4-dbf0-404d-8e32-9614d4e1a0c6"
-          (reference "U2") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -4096,16 +4095,28 @@
   (symbol (lib_id "CY62167:CY62167ELL-45ZXI") (at 422.91 245.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 530860f4-dbee-4172-a97a-31f354536976)
-    (property "Reference" "U1" (at 424.8659 208.28 0)
+    (property "Reference" "U4" (at 424.8659 208.28 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CY62167ELL" (at 424.8659 210.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 417.83 232.41 0)
+    (property "Footprint" "MSX OPL4 Wozblaster:SOP50P2000X120-48N" (at 417.83 232.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 417.83 232.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Device" "I" (at 422.91 245.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Type" "DC" (at 422.91 245.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=+ 2=-" (at 422.91 245.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Params" "dc=\"\"" (at 422.91 245.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3bd58020-e5ee-47d2-b56b-7ce23f1d0a1f))
@@ -4159,7 +4170,7 @@
     (instances
       (project "MSX OPL4 Wozblaster"
         (path "/319085e4-dbf0-404d-8e32-9614d4e1a0c6"
-          (reference "U1") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -4320,7 +4331,7 @@
   (symbol (lib_name "GAL16V8P3_1") (lib_id "CRISAG:GAL16V8P3") (at 264.16 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 85b318e6-0853-4abd-8d9b-9d6f7ef739cc)
-    (property "Reference" "IC1" (at 263.525 90.805 0)
+    (property "Reference" "U2" (at 263.525 90.805 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "GAL16V8D" (at 256.54 105.41 0)
@@ -4355,7 +4366,7 @@
     (instances
       (project "MSX OPL4 Wozblaster"
         (path "/319085e4-dbf0-404d-8e32-9614d4e1a0c6"
-          (reference "IC1") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -4440,7 +4451,7 @@
   (symbol (lib_id "CRISAG:GAL16V8P3") (at 182.88 240.03 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b07bb66e-cc7c-4201-9f5d-f3e2500d2621)
-    (property "Reference" "IC1" (at 182.245 240.665 0)
+    (property "Reference" "U2" (at 182.245 240.665 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "GAL16V8D" (at 175.26 255.27 0)
@@ -4475,7 +4486,7 @@
     (instances
       (project "MSX OPL4 Wozblaster"
         (path "/319085e4-dbf0-404d-8e32-9614d4e1a0c6"
-          (reference "IC1") (unit 2)
+          (reference "U2") (unit 2)
         )
       )
     )
@@ -4613,13 +4624,13 @@
   (symbol (lib_id "CRISAG:AM29F016B-120EC") (at 406.4 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c273ca87-013f-4fd6-b931-eb2a7217b84e)
-    (property "Reference" "IC6" (at 422.91 97.79 0)
+    (property "Reference" "U3" (at 422.91 97.79 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AM29F016B-120EC" (at 422.91 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "CRISAG:SOP50P2000X120-48N" (at 435.61 101.6 0)
+    (property "Footprint" "MSX OPL4 Wozblaster:SOP50P2000X120-48N" (at 435.61 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "http://media.digikey.com/pdf/Data%20Sheets/AMD/AM29F016B.pdf" (at 435.61 104.14 0)
@@ -4694,7 +4705,7 @@
     (instances
       (project "MSX OPL4 Wozblaster"
         (path "/319085e4-dbf0-404d-8e32-9614d4e1a0c6"
-          (reference "IC6") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )

@@ -51,6 +51,13 @@ Currently, the following versions of the WozBlaster cartridge are available (ple
 |---|---|
 |![The Wozblaster Reloaded 4.0 PCB](images/2023-08-27_09-25.jpg)|![The Wozblaster Reloaded 4.0 PCB](images/2023-08-27_09-25.jpg)|
 
+# Box and Inlay Trays
+
+The Wozblaster Reloaded v4.0 has a box designed by Adriano Souza to fit the cartridge. The box is available in the [box](/box) folder.
+
+Although a paper inlay is provided to secure the cartridge inside the box, it is highly recommended to use a plastic insert inner tray (bed) for additional protection, especially during transportation. These trays can be purchased from AliExpress at the following link: [AliExpress Tray](https://s.click.aliexpress.com/e/_DDVBv2D).
+
+
 # Resources
 
 This GitHub repository contains all of the resources needed to build both the original WozBlaster cartridge and the reloaded versions. For detailed instructions, you can refer to the article I wrote, which includes an updated bill of materials (BOM) with links to purchase the required components. You can find the article at https://theretrohacker.com/2022/12/31/blasting-sound-for-your-msx-the-wozblaster-reloaded/.

@@ -18,7 +18,10 @@ It's worth noting that the original Wozblaster PCB cannot be fitted into a tradi
 
 Image below shows the original Wozblaster cartridge PCB:
 
-![The Original Wozblaster Board](images/20230101_212444857_iOS%20(Medium).jpg)
+|PCB Side 1|PCB Side 2|
+|---|---|
+|
+![The Original Wozblaster Board](images/20230101_212444857_iOS%20(Medium).jpg)|![The Original Wozblaster Board](images/20230101_212444857_iOS%20(Medium).jpg)|
 
 A few reloaded versions of the WozBlaster cartridge have been created with appropriately-sized holes to fit both Konami and Patola cartridge cases. Additionally, the audio jack holes have been enlarged to accommodate most common audio jack connectors. Some versions of the cartridge are still a work in progress.
 
@@ -26,18 +29,26 @@ Currently, the following versions of the WozBlaster cartridge are available (ple
 
 * [Wozblaster Reloaded v1.1](/hardware/reloaded_v1.1) - Based on the original circuit, this version features a combination of through-hole and surface-mount components. The board is smaller and can fit in both Konami and Patola cases. (tested and working)
 
-![The Wozblaster Reloaded PCB](images/20230217_181151865_iOS%20(Medium).jpg)
+|PCB Side 1|PCB Side 2|
+|---|---|
+|
+![The Wozblaster Reloaded PCB](images/20230217_181151865_iOS%20(Medium).jpg)|![The Wozblaster Reloaded PCB](images/20230217_181151865_iOS%20(Medium).jpg)
+
 
 * [Wozblaster Reloaded v1.3](/hardware/reloaded_v1.3) - This version replaces the old 27C160 EPROM with an AM29F016B flash memory, and all passive components are 0603 SMD. The sound is injected back to SOUNDIN in mono. The board is smaller and can fit in both Konami and Patola cases. (abandoned)
   
 * [Wozblaster Reloaded v3.3](/hardware/reloaded_v3.3/) - Version based on the UDA1334 DAC, and using the [Adafruit A1334 DAC Module](https://github.com/adafruit/Adafruit-UDA1334A-I2S-Stereo-DAC-PCB) to perform the digital to analog conversion. It is injecting audio back into the SOUNDIN MSX pin. It features 1MB of RAM and 2MB of ROM with MIDI compatible samples. (tested and working)
 
-![The Wozblaster Reloaded 3.2 PCB Side 1](images/20230606_151827648_iOS.jpg)
-![The Wozblaster Reloaded 3.2 PCB Side 2](images/20230606_151837668_iOS.jpg)
+|PCB Side 1|PCB Side 2|
+|---|---|
+|![The Wozblaster Reloaded 3.3 PCB Side 1](images/20230606_151827648_iOS.jpg)|![The Wozblaster Reloaded 3.3 PCB Side 2](images/20230606_151837668_iOS.jpg)|
+
 
 * [Wozblaster Reloaded v4.0](/hardware/reloaded_v4.0/) - Evolution of v3.3 featuring a 2MB CY62167ELL RAM integrated. It also mixes the computer SOUNDIN. (tested and working)
 
-![The Wozblaster Reloaded 4.0 PCB](images/2023-08-27_09-25.jpg)
+|PCB Side 1|PCB Side 2|
+|---|---|
+|![The Wozblaster Reloaded 4.0 PCB](images/2023-08-27_09-25.jpg)|![The Wozblaster Reloaded 4.0 PCB](images/2023-08-27_09-25.jpg)|
 
 # Resources
 
@@ -45,7 +56,9 @@ This GitHub repository contains all of the resources needed to build both the or
 
 The update on the v3.1 development has been posted on a short YouTube video in english [here](https://youtu.be/J95RrFSF2NM). 
 
-The update on v3.2 is available on a quick video [here](https://www.youtube.com/shorts/V5VmL33uvzE).
+The update on v3.2 is available on a quick video [here](https://www.youtube.com/shorts/V5VmL33uvzE). 
+
+Each folder contains detailed Bill of Materials for each version of the board, as well as the Gerber files needed to manufacture the PCBs. 
 
 ## License 
 

@@ -21,7 +21,8 @@ Image below shows the original Wozblaster cartridge PCB:
 |PCB Side 1|PCB Side 2|
 |---|---|
 |![The Original Wozblaster Board](images/20230101_212444857_iOS%20(Medium).jpg)|![The Original Wozblaster Board](images/20230101_212444857_iOS%20(Medium).jpg)|
-|---|---|
+
+
 
 A few reloaded versions of the WozBlaster cartridge have been created with appropriately-sized holes to fit both Konami and Patola cartridge cases. Additionally, the audio jack holes have been enlarged to accommodate most common audio jack connectors. Some versions of the cartridge are still a work in progress.
 

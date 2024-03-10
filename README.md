@@ -30,10 +30,10 @@ Currently, the following versions of the WozBlaster cartridge are available (ple
 
 * [Wozblaster Reloaded v1.1](/hardware/reloaded_v1.1) - Based on the original circuit, this version features a combination of through-hole and surface-mount components. The board is smaller and can fit in both Konami and Patola cases. (tested and working)
 
+
 |PCB Side 1|PCB Side 2|
 |---|---|
-|
-![The Wozblaster Reloaded PCB](images/20230217_181151865_iOS%20(Medium).jpg)|![The Wozblaster Reloaded PCB](images/20230217_181151865_iOS%20(Medium).jpg)
+|![The Wozblaster Reloaded PCB](images/20230217_181151865_iOS%20(Medium).jpg)|![The Wozblaster Reloaded PCB](images/20230217_181151865_iOS%20(Medium).jpg)|
 
 
 * [Wozblaster Reloaded v1.3](/hardware/reloaded_v1.3) - This version replaces the old 27C160 EPROM with an AM29F016B flash memory, and all passive components are 0603 SMD. The sound is injected back to SOUNDIN in mono. The board is smaller and can fit in both Konami and Patola cases. (abandoned)

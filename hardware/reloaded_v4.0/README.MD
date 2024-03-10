@@ -19,3 +19,18 @@
 |U4	|CY62167ELL|	SOP50P2000X120-48N	|1|[Ali Express](https://s.click.aliexpress.com/e/_DkopT8T)|
 |U5	|UDA1334MOD	|UDA1334MOD	|1|[Ali Express](https://www.aliexpress.com/item/1005003524298218.html?spm=a2g0o.productlist.main.1.2dee4758Vxlh9Y&algo_pvid=8f4d3d67-2602-4ff6-843d-f845be27fd5e&algo_exp_id=8f4d3d67-2602-4ff6-843d-f845be27fd5e-0&pdp_npi=4%40dis%21USD%213.48%213.48%21%21%213.48%21%21%402101c6e316955904478808686effb6%2112000026168918433%21sea%21BR%21178731568%21&curPageLogUid=I97rRJH0ohZ9)|
 |Q1	|33.8688|	Crystal_HC49-U_Vertical|1|[Ali Express](https://s.click.aliexpress.com/e/_DlvdCQT)|
+
+## License
+![Open Hardware](../../images/ccans.png)
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+* If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+* You may not use the material for commercial purposes.
+* You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+**ATTENTION**
+
+This project was made for the retro community and not for commercial purposes. So only retro hardware forums and individual people can build this project.
+
+THE SALE OF ANY PART OF THIS PROJECT WITHOUT EXPRESS AUTHORIZATION IS PROHIBITED!

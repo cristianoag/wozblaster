@@ -47,7 +47,7 @@ Currently, the following versions of the WozBlaster cartridge are available (ple
 
 |PCB Side 1|PCB Side 2|
 |---|---|
-|![The Wozblaster Reloaded 4.0 PCB](images\20240314_124846458_iOS%20(Medium).jpg)|![The Wozblaster Reloaded 4.0 PCB](images\20240314_124903239_iOS%20(Medium).jpg)|
+|![The Wozblaster Reloaded 4.0 PCB](images/20240314_124846458_iOS%20(Medium).jpg)|![The Wozblaster Reloaded 4.0 PCB](images/20240314_124903239_iOS%20(Medium).jpg)|
 
 # Box and Inlay Trays
 

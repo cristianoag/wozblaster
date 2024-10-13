@@ -49,6 +49,8 @@ Currently, the following versions of the WozBlaster cartridge are available (ple
 |---|---|
 |![The Wozblaster Reloaded 4.0 PCB](images/20240314_124846458_iOS%20(Medium).jpg)|![The Wozblaster Reloaded 4.0 PCB](images/20240314_124903239_iOS%20(Medium).jpg)|
 
+
+* [Wozblaster Reloaded v5.0](/hardware/reloaded_v5.0/) - This version is now using the EPM7064STC44 CPLD to replace the GAL16V8D and using a LM358 OpAmp to mix the audio before injecting it back to the MSX SOUNDIN. (In development)
 # Box and Inlay Trays
 
 The Wozblaster Reloaded v4.0 has a box designed by Adriano Souza to fit the cartridge. The box is available in the [box](/box) folder.

@@ -1,0 +1,235 @@
+TimeQuest Timing Analyzer report for msx_opl4
+Sat Nov 16 18:14:11 2024
+Quartus II Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Fmax Summary
+  6. Setup Summary
+  7. Hold Summary
+  8. Recovery Summary
+  9. Removal Summary
+ 10. Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Clock Transfers
+ 14. Report TCCS
+ 15. Report RSKM
+ 16. Unconstrained Paths
+ 17. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2011 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                    ;
++--------------------+-----------------------------------------------------------------+
+; Quartus II Version ; Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition ;
+; Revision Name      ; msx_opl4                                                        ;
+; Device Family      ; MAX7000S                                                        ;
+; Device Name        ; EPM7032STC44-10                                                 ;
+; Timing Models      ; Final                                                           ;
+; Delay Model        ; Slow Model                                                      ;
+; Rise/Fall Delays   ; Unavailable                                                     ;
++--------------------+-----------------------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+----------------
+; Fmax Summary ;
+----------------
+No paths to report.
+
+
+-----------------
+; Setup Summary ;
+-----------------
+No paths to report.
+
+
+----------------
+; Hold Summary ;
+----------------
+No paths to report.
+
+
+--------------------
+; Recovery Summary ;
+--------------------
+No paths to report.
+
+
+-------------------
+; Removal Summary ;
+-------------------
+No paths to report.
+
+
+-------------------------------
+; Minimum Pulse Width Summary ;
+-------------------------------
+No paths to report.
+
+
++--------------------------------------------------------------+
+; Propagation Delay                                            ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; msx_A1     ; msx_busdir  ; 10.000 ;        ;        ; 10.000 ;
+; msx_A1     ; y_A1        ; 10.000 ;        ;        ; 10.000 ;
+; msx_A1     ; y_CS        ; 10.000 ;        ;        ; 10.000 ;
+; msx_A2     ; msx_busdir  ; 10.000 ;        ;        ; 10.000 ;
+; msx_A2     ; y_CS        ; 10.000 ;        ;        ; 10.000 ;
+; msx_A3     ; msx_busdir  ; 10.000 ;        ;        ; 10.000 ;
+; msx_A3     ; y_CS        ; 10.000 ;        ;        ; 10.000 ;
+; msx_A4     ; msx_busdir  ; 10.000 ;        ;        ; 10.000 ;
+; msx_A4     ; y_CS        ; 10.000 ;        ;        ; 10.000 ;
+; msx_A5     ; msx_busdir  ; 10.000 ;        ;        ; 10.000 ;
+; msx_A5     ; y_CS        ; 10.000 ;        ;        ; 10.000 ;
+; msx_A6     ; msx_busdir  ; 10.000 ;        ;        ; 10.000 ;
+; msx_A6     ; y_CS        ; 10.000 ;        ;        ; 10.000 ;
+; msx_A7     ; msx_busdir  ;        ; 10.000 ; 10.000 ;        ;
+; msx_A7     ; y_A1        ;        ; 10.000 ; 10.000 ;        ;
+; msx_A7     ; y_A2        ;        ; 10.000 ; 10.000 ;        ;
+; msx_A7     ; y_CS        ;        ; 10.000 ; 10.000 ;        ;
+; msx_IORQ   ; msx_busdir  ;        ; 10.000 ; 10.000 ;        ;
+; msx_IORQ   ; y_CS        ;        ; 10.000 ; 10.000 ;        ;
+; msx_RD     ; msx_busdir  ;        ; 10.000 ; 10.000 ;        ;
++------------+-------------+--------+--------+--------+--------+
+
+
++--------------------------------------------------------------+
+; Minimum Propagation Delay                                    ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; msx_A1     ; msx_busdir  ; 10.000 ;        ;        ; 10.000 ;
+; msx_A1     ; y_A1        ; 10.000 ;        ;        ; 10.000 ;
+; msx_A1     ; y_CS        ; 10.000 ;        ;        ; 10.000 ;
+; msx_A2     ; msx_busdir  ; 10.000 ;        ;        ; 10.000 ;
+; msx_A2     ; y_CS        ; 10.000 ;        ;        ; 10.000 ;
+; msx_A3     ; msx_busdir  ; 10.000 ;        ;        ; 10.000 ;
+; msx_A3     ; y_CS        ; 10.000 ;        ;        ; 10.000 ;
+; msx_A4     ; msx_busdir  ; 10.000 ;        ;        ; 10.000 ;
+; msx_A4     ; y_CS        ; 10.000 ;        ;        ; 10.000 ;
+; msx_A5     ; msx_busdir  ; 10.000 ;        ;        ; 10.000 ;
+; msx_A5     ; y_CS        ; 10.000 ;        ;        ; 10.000 ;
+; msx_A6     ; msx_busdir  ; 10.000 ;        ;        ; 10.000 ;
+; msx_A6     ; y_CS        ; 10.000 ;        ;        ; 10.000 ;
+; msx_A7     ; msx_busdir  ;        ; 10.000 ; 10.000 ;        ;
+; msx_A7     ; y_A1        ;        ; 10.000 ; 10.000 ;        ;
+; msx_A7     ; y_A2        ;        ; 10.000 ; 10.000 ;        ;
+; msx_A7     ; y_CS        ;        ; 10.000 ; 10.000 ;        ;
+; msx_IORQ   ; msx_busdir  ;        ; 10.000 ; 10.000 ;        ;
+; msx_IORQ   ; y_CS        ;        ; 10.000 ; 10.000 ;        ;
+; msx_RD     ; msx_busdir  ;        ; 10.000 ; 10.000 ;        ;
++------------+-------------+--------+--------+--------+--------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 9     ; 9    ;
+; Unconstrained Input Port Paths  ; 20    ; 20   ;
+; Unconstrained Output Ports      ; 4     ; 4    ;
+; Unconstrained Output Port Paths ; 20    ; 20   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II TimeQuest Timing Analyzer
+    Info: Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition
+    Info: Processing started: Sat Nov 16 18:14:09 2024
+Info: Command: quartus_sta msx_opl4 -c msx_opl4
+Info: qsta_default_script.tcl version: #1
+Warning: Parallel compilation is not licensed and has been disabled
+Info: Started post-fitting delay annotation
+Info: Delay annotation completed successfully
+Warning: Timing Analysis does not support the analysis of latches as synchronous elements for the currently selected device family
+Critical Warning: Synopsys Design Constraints File file not found: 'msx_opl4.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info: No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info: The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning: No clocks defined in design.
+Info: No clocks to report
+Info: No fmax paths to report
+Info: No Setup paths to report
+Info: No Hold paths to report
+Info: No Recovery paths to report
+Info: No Removal paths to report
+Info: No Minimum Pulse Width paths to report
+Info: The selected device family is not supported by the report_metastability command.
+Info: Design is not fully constrained for setup requirements
+Info: Design is not fully constrained for hold requirements
+Info: Quartus II TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 223 megabytes
+    Info: Processing ended: Sat Nov 16 18:14:11 2024
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+

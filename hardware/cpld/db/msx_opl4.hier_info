@@ -1,0 +1,13 @@
+|msx_opl4
+msx_A1 => y_CS.IN1
+msx_A1 => y_A1.IN0
+msx_A2 => y_CS.IN1
+msx_A3 => y_CS.IN1
+msx_A4 => y_CS.IN1
+msx_A5 => y_CS.IN1
+msx_A6 => y_CS.IN1
+msx_A7 => y_A2.IN0
+msx_RD => msx_busdir.IN0
+msx_IORQ => y_CS.IN0
+
+

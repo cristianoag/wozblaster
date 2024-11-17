@@ -1,5 +1,5 @@
 Assembler report for msx_opl4
-Sat Nov 16 18:14:10 2024
+Sat Nov 16 20:51:03 2024
 Quartus II Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition
 
 
@@ -37,7 +37,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Sat Nov 16 18:14:10 2024 ;
+; Assembler Status      ; Successful - Sat Nov 16 20:51:03 2024 ;
 ; Revision Name         ; msx_opl4                              ;
 ; Top-level Entity Name ; msx_opl4                              ;
 ; Family                ; MAX7000S                              ;
@@ -89,7 +89,7 @@ applicable agreement for further details.
 +----------------+-----------------------------------------------------------------------------------------------------------------+
 ; Device         ; EPM7032STC44-10                                                                                                 ;
 ; JTAG usercode  ; 0x00000000                                                                                                      ;
-; Checksum       ; 0x0006D7E6                                                                                                      ;
+; Checksum       ; 0x0006EB1C                                                                                                      ;
 +----------------+-----------------------------------------------------------------------------------------------------------------+
 
 
@@ -99,12 +99,12 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition
-    Info: Processing started: Sat Nov 16 18:14:09 2024
+    Info: Processing started: Sat Nov 16 20:51:02 2024
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off msx_opl4 -c msx_opl4
 Info: Assembler is generating device programming files
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 238 megabytes
-    Info: Processing ended: Sat Nov 16 18:14:10 2024
+    Info: Peak virtual memory: 237 megabytes
+    Info: Processing ended: Sat Nov 16 20:51:03 2024
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:00
 

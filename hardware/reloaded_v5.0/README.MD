@@ -23,6 +23,31 @@
 |Q1	|33.8688|	Crystal_HC49-U_Vertical|1|[Ali Express](https://s.click.aliexpress.com/e/_DlvdCQT)|
 |J1|AVR-JTAG-10	|PinHeader_2x05_P2.54mm_Vertical	|1|Ali Express|
 
+## CPLD Code
+
+The Wozblaster Reloaded 5.0 uses a EPM7064STC44 CPLD. The code is available in the `cpld` folder. The code was written in Verilog and compiled using the Quartus II software. The compiled file is available in the `cpld/output_files` folder.
+
+It implements the selection of the OPL4 chip and its registers. 
+
+The I/O of the OPL4 can be done on the following I/O ports:
+
+|Port|Binary|Function|
+|-----|---------|----|
+|07Eh |01111110 | wave register	|
+|07Fh |01111111 | wave data|				
+|0C4h |11000100 | FM bank 1 register|
+|0C5h |11000101 | FM data|
+|0C6h |11000110 | FM bank 2 register|
+
+
+0C7h is a mirror of the FM data register but use of 0C5h is preferred.
+
+The selection of the EPM7064STC44 CPLD was due to the fact that it is a common CPLD supporting 5V and can be found in several sources. It is also less subject to JTAG locking than other versions of the EPM7064 based on PLCC. The 
+EPM7032STC44 can also be used as it is pin compatible with the EPM7064STC44 and the size of the code is small enough to fit in the EPM7032STC44.
+
+## SOUNDIN
+
+The SOUNDIN signal for the MSX computer is obtained by combining the two stereo channels into a single mono channel over the LM358 operational amplifier. The LM358 is powered by 5V and the output is connected to the SOUNDIN signal of the MSX computer.
 
 ## License
 ![Open Hardware](../../images/ccans.png)

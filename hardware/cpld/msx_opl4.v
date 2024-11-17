@@ -19,11 +19,28 @@ module msx_opl4 (
    output msx_busdir  // CPLD pin 11
 );
 
-	// The YMF278B is accessed through ports 7Eh (0111 1110) and 7Fh (0111 1111)
-	// this is gustavo's selection logic
-   //assign y_CS = ~( ~msx_IORQ & ~msx_A5 & ~msx_A4 & ~msx_A3 & msx_A6 & msx_A7);
-	// this is mine 
-	assign y_CS = ~( ~msx_IORQ & ~msx_A7 & msx_A6 & msx_A5 & msx_A4 & msx_A3 & msx_A2 & msx_A1);
+	// The I/O of the OPL4 can be done on the following I/O ports:
+   // 07Eh wave register		01111110
+	// 07Fh wave data				01111111
+	// 0C4h FM bank 1 register 11000100
+	//	0C5h FM data				11000101
+	// 0C6h FM bank 2 register 11000110
+	//
+	// 0C7h is a mirror of the FM data register but use of 0C5h is preferred.
+
+	// this is gustavo's selection logic as per GAL16V8D Chip report.txt
+   //  	assign y_CS = ~( ~msx_IORQ & msx_A7 & msx_A6 & ~msx_A5 & ~msx_A4 & ~msx_A3 );
+	// I think it is incorrect as it is not selecting 7E and 7F
+	//
+	// this is my logic to select the chip 
+	assign y_CS = ~(
+    ~msx_IORQ & (
+        // Match 7E and 7F
+        (~msx_A7 & msx_A6 & msx_A5 & msx_A4 & msx_A3 & msx_A2 & msx_A1) |
+        // Match C4, C5, and C6
+        (msx_A7 & msx_A6 & ~msx_A5 & ~msx_A4 & ~msx_A3 & msx_A2)
+		)
+	);
 	assign y_A1 = ~( ~msx_A7 & msx_A1 );           
    assign y_A2 = ~( msx_A7 );   
     

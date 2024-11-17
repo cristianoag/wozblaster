@@ -31,7 +31,7 @@ ON
 # case_sensitive
 # source_file
 msx_opl4.v
-d1fad5e1d2330a44a34e9da3e8190
+96373eb1726f8fe1294690e5e83d12fd
 8
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT

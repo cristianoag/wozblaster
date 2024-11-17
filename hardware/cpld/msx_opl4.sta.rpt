@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for msx_opl4
-Sat Nov 16 18:14:11 2024
+Sat Nov 16 20:51:03 2024
 Quartus II Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition
 
 
@@ -121,18 +121,18 @@ No paths to report.
 ; msx_A1     ; y_CS        ; 10.000 ;        ;        ; 10.000 ;
 ; msx_A2     ; msx_busdir  ; 10.000 ;        ;        ; 10.000 ;
 ; msx_A2     ; y_CS        ; 10.000 ;        ;        ; 10.000 ;
-; msx_A3     ; msx_busdir  ; 10.000 ;        ;        ; 10.000 ;
-; msx_A3     ; y_CS        ; 10.000 ;        ;        ; 10.000 ;
-; msx_A4     ; msx_busdir  ; 10.000 ;        ;        ; 10.000 ;
-; msx_A4     ; y_CS        ; 10.000 ;        ;        ; 10.000 ;
-; msx_A5     ; msx_busdir  ; 10.000 ;        ;        ; 10.000 ;
-; msx_A5     ; y_CS        ; 10.000 ;        ;        ; 10.000 ;
+; msx_A3     ; msx_busdir  ; 10.000 ; 10.000 ; 10.000 ; 10.000 ;
+; msx_A3     ; y_CS        ; 10.000 ; 10.000 ; 10.000 ; 10.000 ;
+; msx_A4     ; msx_busdir  ; 10.000 ; 10.000 ; 10.000 ; 10.000 ;
+; msx_A4     ; y_CS        ; 10.000 ; 10.000 ; 10.000 ; 10.000 ;
+; msx_A5     ; msx_busdir  ; 10.000 ; 10.000 ; 10.000 ; 10.000 ;
+; msx_A5     ; y_CS        ; 10.000 ; 10.000 ; 10.000 ; 10.000 ;
 ; msx_A6     ; msx_busdir  ; 10.000 ;        ;        ; 10.000 ;
 ; msx_A6     ; y_CS        ; 10.000 ;        ;        ; 10.000 ;
-; msx_A7     ; msx_busdir  ;        ; 10.000 ; 10.000 ;        ;
+; msx_A7     ; msx_busdir  ; 10.000 ; 10.000 ; 10.000 ; 10.000 ;
 ; msx_A7     ; y_A1        ;        ; 10.000 ; 10.000 ;        ;
 ; msx_A7     ; y_A2        ;        ; 10.000 ; 10.000 ;        ;
-; msx_A7     ; y_CS        ;        ; 10.000 ; 10.000 ;        ;
+; msx_A7     ; y_CS        ; 10.000 ; 10.000 ; 10.000 ; 10.000 ;
 ; msx_IORQ   ; msx_busdir  ;        ; 10.000 ; 10.000 ;        ;
 ; msx_IORQ   ; y_CS        ;        ; 10.000 ; 10.000 ;        ;
 ; msx_RD     ; msx_busdir  ;        ; 10.000 ; 10.000 ;        ;
@@ -149,18 +149,18 @@ No paths to report.
 ; msx_A1     ; y_CS        ; 10.000 ;        ;        ; 10.000 ;
 ; msx_A2     ; msx_busdir  ; 10.000 ;        ;        ; 10.000 ;
 ; msx_A2     ; y_CS        ; 10.000 ;        ;        ; 10.000 ;
-; msx_A3     ; msx_busdir  ; 10.000 ;        ;        ; 10.000 ;
-; msx_A3     ; y_CS        ; 10.000 ;        ;        ; 10.000 ;
-; msx_A4     ; msx_busdir  ; 10.000 ;        ;        ; 10.000 ;
-; msx_A4     ; y_CS        ; 10.000 ;        ;        ; 10.000 ;
-; msx_A5     ; msx_busdir  ; 10.000 ;        ;        ; 10.000 ;
-; msx_A5     ; y_CS        ; 10.000 ;        ;        ; 10.000 ;
+; msx_A3     ; msx_busdir  ; 10.000 ; 10.000 ; 10.000 ; 10.000 ;
+; msx_A3     ; y_CS        ; 10.000 ; 10.000 ; 10.000 ; 10.000 ;
+; msx_A4     ; msx_busdir  ; 10.000 ; 10.000 ; 10.000 ; 10.000 ;
+; msx_A4     ; y_CS        ; 10.000 ; 10.000 ; 10.000 ; 10.000 ;
+; msx_A5     ; msx_busdir  ; 10.000 ; 10.000 ; 10.000 ; 10.000 ;
+; msx_A5     ; y_CS        ; 10.000 ; 10.000 ; 10.000 ; 10.000 ;
 ; msx_A6     ; msx_busdir  ; 10.000 ;        ;        ; 10.000 ;
 ; msx_A6     ; y_CS        ; 10.000 ;        ;        ; 10.000 ;
-; msx_A7     ; msx_busdir  ;        ; 10.000 ; 10.000 ;        ;
+; msx_A7     ; msx_busdir  ; 10.000 ; 10.000 ; 10.000 ; 10.000 ;
 ; msx_A7     ; y_A1        ;        ; 10.000 ; 10.000 ;        ;
 ; msx_A7     ; y_A2        ;        ; 10.000 ; 10.000 ;        ;
-; msx_A7     ; y_CS        ;        ; 10.000 ; 10.000 ;        ;
+; msx_A7     ; y_CS        ; 10.000 ; 10.000 ; 10.000 ; 10.000 ;
 ; msx_IORQ   ; msx_busdir  ;        ; 10.000 ; 10.000 ;        ;
 ; msx_IORQ   ; y_CS        ;        ; 10.000 ; 10.000 ;        ;
 ; msx_RD     ; msx_busdir  ;        ; 10.000 ; 10.000 ;        ;
@@ -205,7 +205,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II TimeQuest Timing Analyzer
     Info: Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition
-    Info: Processing started: Sat Nov 16 18:14:09 2024
+    Info: Processing started: Sat Nov 16 20:51:02 2024
 Info: Command: quartus_sta msx_opl4 -c msx_opl4
 Info: qsta_default_script.tcl version: #1
 Warning: Parallel compilation is not licensed and has been disabled
@@ -227,9 +227,9 @@ Info: The selected device family is not supported by the report_metastability co
 Info: Design is not fully constrained for setup requirements
 Info: Design is not fully constrained for hold requirements
 Info: Quartus II TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 223 megabytes
-    Info: Processing ended: Sat Nov 16 18:14:11 2024
-    Info: Elapsed time: 00:00:02
+    Info: Peak virtual memory: 222 megabytes
+    Info: Processing ended: Sat Nov 16 20:51:03 2024
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
 

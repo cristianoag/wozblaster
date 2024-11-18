@@ -12,7 +12,7 @@ The WozBlaster cartridge is an external sound device designed for the MSX platfo
 
 The OPL4 sound chip from Yamaha is typically paired with a YAC513 floating-point DAC chip, or an alternative compatible DAC chip. The YMF278 is an enhanced version of the OPL3 and, although not officially part of the standard, has been widely adopted by the MSX community, particularly in Europe.
 
-Moonsound clones generally come equipped with 1 MB of sample-RAM and a 2 MB Yamaha YRW801-M General MIDI ROM. Although the board has the capacity to address more than 1 MB of memory, the original version of the cartridge only had two 512K memory chips.
+Moonsound clones generally come equipped with 1 MB of sample-RAM and a 2 MB Yamaha YRW801-M General MIDI ROM. Although the board has the capacity to address more than 1 MB of memory, the original version of the Wozblaster only had two 512K memory chips.
 
 It's worth noting that the original Wozblaster PCB cannot be fitted into a traditional MSX cartridge case. Additionally, as detailed in the building instructions, the audio jack holes on the original board are quite small, which made it difficult to find a connector that would fit.
 
@@ -50,10 +50,11 @@ Currently, the following versions of the WozBlaster cartridge are available (ple
 |![The Wozblaster Reloaded 4.0 PCB](images/20240314_124846458_iOS%20(Medium).jpg)|![The Wozblaster Reloaded 4.0 PCB](images/20240314_124903239_iOS%20(Medium).jpg)|
 
 
-* [Wozblaster Reloaded v5.0](/hardware/reloaded_v5.0/) - This version is now using the EPM7064STC44 CPLD to replace the GAL16V8D and using a LM358 OpAmp to mix the audio before injecting it back to the MSX SOUNDIN. (In development)
+* [Wozblaster Reloaded v4.5](/hardware/reloaded_v4.5/) - This version is now using the EPM7064STC44 (or EPM7032STC400) CPLD to replace the GAL16V8D it also better isolates the audio channels  before injecting them as mono back to the MSX SOUNDIN. (In development)
+
 # Box and Inlay Trays
 
-The Wozblaster Reloaded v4.0 has a box designed by Adriano Souza to fit the cartridge. The box is available in the [box](/box) folder.
+The Wozblaster Reloaded has a box designed by Adriano Souza to fit the cartridge. The box is available in the [box](/box) folder.
 
 Although a paper inlay is provided to secure the cartridge inside the box, it is highly recommended to use a plastic insert inner tray (bed) for additional protection, especially during transportation. These trays can be purchased from AliExpress at the following link: [AliExpress Tray](https://s.click.aliexpress.com/e/_DDVBv2D).
 

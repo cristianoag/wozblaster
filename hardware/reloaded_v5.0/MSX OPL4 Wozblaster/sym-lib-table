@@ -1,8 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "CRISAG")(type "KiCad")(uri "${KIPRJMOD}/libraries/CRISAG.kicad_sym")(options "")(descr ""))
-  (lib (name "MSX OPL4 Wozblaster")(type "KiCad")(uri "${KIPRJMOD}/libraries/MSX OPL4 Wozblaster.kicad_sym")(options "")(descr ""))
-  (lib (name "AM29F016B-120EC")(type "KiCad")(uri "${KIPRJMOD}/libraries/AM29F016B-120EC.kicad_sym")(options "")(descr ""))
-  (lib (name "CY62167")(type "KiCad")(uri "${KIPRJMOD}/libraries/CY62167.kicad_sym")(options "")(descr ""))
-  (lib (name "EPM7064STC44-7")(type "KiCad")(uri "${KIPRJMOD}/libraries/EPM7064STC44-7.kicad_sym")(options "")(descr ""))
-)

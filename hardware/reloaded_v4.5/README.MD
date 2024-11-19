@@ -42,7 +42,7 @@ The I/O of the OPL4 can be done on the following I/O ports:
 0C7h is a mirror of the FM data register but use of 0C5h is preferred.
 
 The selection of the EPM7064STC44 (or EPM7032STC44) CPLD was due to the fact that it is a common CPLD supporting 5V and can be found in several sources. It is also less subject to JTAG locking than other versions of those CPLDs based on PLCC. The 
-EPM7032STC44 can also be used as it is pin compatible with the EPM7064STC44 and the size of the code is small enough to fit in the EPM7032STC44.
+EPM7032STC44 can also be used as it is pin compatible with the EPM7064STC44 and the size of synthesis is small enough to fit in the EPM7032STC44.
 
 ## SOUNDIN
 

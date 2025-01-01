@@ -1,5 +1,8 @@
 # The Wozblaster (Reloaded)
 
+![Label](/labels/Wozblaster_Reloaded_Custom_80x58.png)
+
+## Introduction 
 The WozBlaster OPL4 cartridge is a sound expansion device designed for the MSX platform. This cartridge enables a range of additional audio capabilities for the MSX, including support for both FM synthesis and wavetable synthesis. 
 
 At its core is the OPL4 (FM Operator Type-L4) sound chip, which was developed by Yamaha and used in a variety of electronic musical instruments and computer sound cards. 
@@ -16,6 +19,8 @@ Moonsound clones generally come equipped with 1 MB of sample-RAM and a 2 MB Yama
 
 It's worth noting that the original Wozblaster PCB cannot be fitted into a traditional MSX cartridge case. Additionally, as detailed in the building instructions, the audio jack holes on the original board are quite small, which made it difficult to find a connector that would fit.
 
+## Original Wozblaster
+
 Image below shows the original Wozblaster cartridge PCB:
 
 |PCB Side 1|PCB Side 2|
@@ -23,6 +28,8 @@ Image below shows the original Wozblaster cartridge PCB:
 |![The Original Wozblaster Board](images/20240314_124926981_iOS%20(Medium).jpg)|![The Original Wozblaster Board](images/20240314_124936969_iOS%20(Medium).jpg)|
 
 A few reloaded versions of the WozBlaster cartridge have been created with appropriately-sized holes to fit both Konami and Patola cartridge cases. Additionally, the audio jack holes have been enlarged to accommodate most common audio jack connectors. Some versions of the cartridge are still a work in progress.
+
+## Reloaded Versions
 
 Currently, the following versions of the WozBlaster cartridge are available (please note that this list is subject to change as new versions become available):
 
@@ -50,16 +57,23 @@ Currently, the following versions of the WozBlaster cartridge are available (ple
 |![The Wozblaster Reloaded 4.0 PCB](images/20240314_124846458_iOS%20(Medium).jpg)|![The Wozblaster Reloaded 4.0 PCB](images/20240314_124903239_iOS%20(Medium).jpg)|
 
 
-* [Wozblaster Reloaded v4.5](/hardware/reloaded_v4.5/) - This version is now using the EPM7064STC44 (or EPM7032STC400) CPLD to replace the GAL16V8D it also better isolates the audio channels  before injecting them as mono back to the MSX SOUNDIN. (In development)
+* [Wozblaster Reloaded v4.5](/hardware/reloaded_v4.5/) - This version is now using the EPM7064STC44 (or EPM7032STC400) CPLD to replace the GAL16V8D it also better isolates the audio channels  before injecting them as mono back to the MSX SOUNDIN. (tested and working)
 
-# Box and Inlay Trays
+|PCB Side 1|PCB Side 2|
+|---|---|
+|![The Wozblaster Reloaded 4.0 PCB](images/20241224_122133839_iOS%20(Medium).jpg)|![The Wozblaster Reloaded 4.0 PCB](images/20241224_122156577_iOS%20(Medium).jpg)|
+
+## Bill of Materials
+
+The Bill of Materials (BOM) for each version of the WozBlaster cartridge is available in the respective page. The BOM includes a list of all the components needed to build the cartridge, as well as links to purchase the components online.
+
+## Box and Inlay Trays
 
 The Wozblaster Reloaded has a box designed by Adriano Souza to fit the cartridge. The box is available in the [box](/box) folder.
 
-Although a paper inlay is provided to secure the cartridge inside the box, it is highly recommended to use a plastic insert inner tray (bed) for additional protection, especially during transportation. These trays can be purchased from AliExpress at the following link: [AliExpress Tray](https://s.click.aliexpress.com/e/_DDVBv2D).
+Although a paper inlay is provided to secure the cartridge inside the box, it is  recommended to use a plastic insert inner tray (bed) for additional protection, especially during transportation. These trays can be purchased from AliExpress at the following link: [AliExpress Tray](https://s.click.aliexpress.com/e/_DDVBv2D).
 
-
-# Resources
+## Resources
 
 This GitHub repository contains all of the resources needed to build both the original WozBlaster cartridge and the reloaded versions. For detailed instructions, you can refer to the article I wrote, which includes an updated bill of materials (BOM) with links to purchase the required components. You can find the article at https://theretrohacker.com/2022/12/31/blasting-sound-for-your-msx-the-wozblaster-reloaded/.
 

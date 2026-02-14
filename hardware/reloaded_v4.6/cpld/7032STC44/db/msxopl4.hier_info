@@ -1,0 +1,20 @@
+|msxopl4
+msx_A1 => y_A1.IN0
+msx_A1 => y_A1.IN0
+msx_A2 => comb.IN0
+msx_A3 => comb.IN0
+msx_A3 => comb.IN1
+msx_A4 => comb.IN0
+msx_A4 => comb.IN1
+msx_A5 => comb.IN0
+msx_A5 => comb.IN1
+msx_A6 => comb.IN1
+msx_A7 => y_A1.IN1
+msx_A7 => y_A2.IN0
+msx_A7 => cs_term_c4_c7.IN1
+msx_RD => msx_busdir.IN0
+msx_WR => ~NO_FANOUT~
+msx_IORQ => comb.IN0
+msx_M1 => IO.IN1
+
+
